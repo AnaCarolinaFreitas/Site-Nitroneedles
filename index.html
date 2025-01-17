@@ -5,7 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
     <title>Scuderia Nitroneedles</title>
+
+    <!-- Link Swiper -->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
     <header>
@@ -46,6 +56,123 @@
                 }
             </script>
         </section>
+
+        <section class="banner-container">
+            <div class="banner">
+                <img src="./media/regional-champ.jpg" alt="Scuderia Nitroneedles na regional paulista de F1 in Schools 2024 após a conquista do título de campeã regional">
+                <div class="overlay"></div> <!-- Quadrado laranja translúcido -->
+            </div>
+    
+            <div class="banner-text">
+                <img src="./media/Speed-is-purpose.png" alt="Frase Speed is Purpose">
+            </div>
+        </section>
     </header>
+
+    <main class="container-main">
+        <article class="main-new">
+            <h1 class="meet-title">Conheça a Scuderia Nitroneedles</h1>
+            <p class="meet-text">A Scuderia Nitroneedles se formou em janeiro de 2022 com o objetivo de participar do projeto F1 in Schools.
+                Estreamos na competição em 2022 e desde então nos dedicamos ao máximo para impactar a nossa comunidade através da tecnologia e educação.
+                </p>
+        </article>
+
+        <aside class="aside-img">
+            <img src="./media/FOTO_equipe.jpg" alt="Scuderia Nitroneedles na abertura de temporada da F1 in Schools 2024">
+        </aside>
+    </main>
+
+    <main class="team-main">
+        <section class="team-section">
+            <h1 class="team-title">Conheça a equipe</h1>
+
+            <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="./media/alefe.jpg" alt="Alefe Amaral"></div>
+      <div class="swiper-slide"><img src="./media/ana.jpg" alt="Ana Carolina"></div>
+      <div class="swiper-slide"><img src="./media/giovanna.jpg" alt="Giovanna Caron"></div>
+      <div class="swiper-slide"><img src="./media/joão.jpg" alt="João Borghi"></div>
+      <div class="swiper-slide"><img src="./media/pedro.jpg" alt="Pedro Cabral"></div>
+      <div class="swiper-slide"><img src="./media/rebeca.jpg" alt="Rebeca Bonaldo"></div>
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+  </div>
+        </section>
+    </main>
+
+    <main class="achievements-main">
+        <h1 class="achievements-title">Conquistas</h1>
+
+        <section class="achievements-section">
+
+            <div class="trophy">
+                <img src="./media/troféu.png" alt="">
+            </div>
+
+            <div class="achievements">
+                <li><p>Participação no Festival Internacional de Robótica</p></li>
+                <li><p>Melhor pontuação em gestão de projetos 2023</p></li>
+                <li><p>Melhor Escrutínio na regional Paulista 2024 </p></li>
+                <li><p>Campeões do mata-mata na regional Paulista 2024</p></li>
+                <li><p>Tricampeão Regional - SP 22/23/24</p></li>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-site">
+
+        <section class="sponsors-footer">
+        <img src="./media/sponsors.png" alt="">
+        </section>
+
+        <div class="division-bar">
+            <div class="division"></div>
+        </div>
+
+        <section class="footer-info">
+            <div class="footer-logo">
+                <img src="./media/logo branca nitro.png" alt="Logo Nitro Needles">
+            </div>
+    
+            <div class="footer-details">
+                <div class="footer-social">
+                    <h2 class="subtitle">REDES SOCIAIS</h2>
+                    <div class="linha"></div>
+                    <div class="icons">
+                        <a href="https://www.instagram.com/nitroneedles/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@nitroneedles"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="https://br.linkedin.com/company/scuderia-nitroneedles"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.youtube.com/@nitroneedles"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+    
+                <div class="footer-school">
+                    <h2 class="subtitle">ESCOLA</h2>
+                    <div class="linha"></div>
+                    <p>SESI Valinhos - Rod. Flávio de Carvalho, 2787<br> Jardim São Paulo, Valinhos - SP, 13273-450</p>
+                </div>
+    
+                <div class="footer-contact">
+                    <h2 class="subtitle">CONTATE-NOS</h2>
+                    <div class="linha"></div>
+                    <p>scuderianitroneedles@gmail.com</p>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/Team_Slider.js"></script>
+
 </body>
 </html>

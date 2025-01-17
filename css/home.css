@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Anton', sans-serif;
+    background-color: #f5f5f5;
+}
+
+.anton-regular {
+    font-family: "Anton", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .montserrat {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+/* Estilo principal para o container */
+.container-main {
+    display: flex;
+    justify-content: space-between; /* Espaçamento entre o texto e a imagem */
+    align-items: center;
+    padding: 50px 15%; /* Espaçamento interno */
+    gap: 10rem; /* Espaço entre os elementos */
+}
+
+/* Estilo do texto */
+.main-new {
+    flex: 1; /* O texto ocupa o espaço restante */
+    /* margin-bottom: 125px;*/
+} 
+
+.meet-title {
+    font-family: 'Anton', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #111a50; /* Cor semelhante ao exemplo */
+}
+
+.meet-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.6;
+    color: #333; /* Cor para legibilidade */
+}
+
+/* Estilo para a imagem */
+.aside-img {
+    flex: 1; /* Imagem ocupa o espaço restante */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aside-img img {
+    width: 90%; /* Controla o tamanho da imagem */
+    height: auto; /* Mantém a proporção */
+    border-radius: 8px; /* Opcional: adiciona bordas arredondadas */
+}
+
+.team-main{
+    padding: 50px 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.team-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-title{ 
+    font-family: 'Anton', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #111a50; /* Cor semelhante ao exemplo */
+}
+
+.swiper {
+   height: 50%;
+   width: 100%;
+  }
+
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .swiper-slide img {
+    width: 100%;
+    height: auto;
+  }
+
+  .swiper-button-prev, .swiper-button-next {
+    width: 25px;
+    height: 25px;
+  }
+
+    .swiper-button-prev:after, .swiper-button-next:after {
+        content: '\f053';
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        font-size: 15px ;
+        color: rgb(239, 130, 37);
+    }
+
+    .achievements-main {
+        display: flex;
+        flex-direction: column;
+        padding: 50px 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff; /* Adicionado fundo branco */
+    }
+    
+    .achievements-section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 50px;
+    }
+    
+    .trophy-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .trophy {
+        width: 300px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    
+    .trophy img {
+        width: 250%;
+        height: auto;
+    }
+    
+    .achievements {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    
+    .achievements-title {
+        font-family: 'Anton', sans-serif;
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+        color: #111a50;
+    }
+    
+    .achievements ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .achievements li {
+        list-style: none;
+        background-color: #e6e6e6; /* Cor similar ao fundo cinza */
+        padding: 18px 30px;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1rem;
+        color: #111a50;
+        width: 100%;
+    }
+    
+
+
+
+
+

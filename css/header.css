@@ -101,3 +101,45 @@ nav a:hover{
     }
 }
 
+.banner-container {
+    position: relative;
+    width: 100%;
+    height: 600px; /* Altura reduzida para ajustar o tamanho do banner */
+    overflow: hidden;
+}
+
+.banner img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Garante que a imagem se encaixe sem distorção */
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(239, 130, 37, 0.3); /* Laranja translúcido */
+    z-index: 1; /* Camada acima da imagem */
+}
+
+.banner-text {
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    text-align:center;
+    z-index: 2; /* Camada acima da overlay */
+}
+
+.banner-text img {
+    width: 650px; /* Tamanho reduzido para se adequar ao layout */
+    height: auto;
+    display: inline-block;
+}
+
+
+
+
