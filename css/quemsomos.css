@@ -25,3 +25,58 @@ body {
     font-style: normal;
   }
   
+  .team-objectives {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.objectives-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 160px;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+
+.mission, .vision, .values {
+    width: 20%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7%;
+    padding: 50px;
+    margin-top: 20px;
+    background-color: #f68e1f;
+    border-radius: 20px;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.objectives-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.objectives-icon img {
+    width: 50px;
+    height: 50px;
+}
+
+.objectives-title {
+    font-size: 1.5rem;
+    color: white;
+    margin: 0;
+}
