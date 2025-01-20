@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/f1inschools.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <title>Scuderia Nitroneedles</title>
+
+    <!-- Link Swiper -->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <header>
+         <section class="container-header">
+    
+            <nav>
+                <div class="img-header">
+                    <a href="../index.html">
+                    <img src="../media/logo branca nitro.png" alt="Logo Scuderia Nitroneedles"></a>
+                </div> 
+                <ul class="sidebar">
+                    <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                    <li><a href="quemsomos.html">Quem Somos</a></li>
+                    <li><a href="f1inschools.html">F1 in Schools</a></li>
+                    <li><a href="#">Notícias</a></li>
+                    <li><a href="#">Parceiros</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+                <ul>
+                    <li class="hideOnMobile"><a href="quemsomos.html">Quem Somos</a></li>
+                    <li class="hideOnMobile"><a href="f1inschools.html">F1 in Schools</a></li>
+                    <li class="hideOnMobile"><a href="#">Notícias</a></li>
+                    <li class="hideOnMobile"><a href="#">Parceiros</a></li>
+                    <li class="hideOnMobile"><a href="#">Contato</a></li>
+                    <li class="menu-button" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+                </ul>
+            </nav>
+
+            <script>
+                function showSidebar() {
+                    const sidebar = document.querySelector('.sidebar');
+                    sidebar.style.display = 'flex';
+                }
+
+                function hideSidebar() {
+                    const sidebar = document.querySelector('.sidebar');
+                    sidebar.style.display = 'none';
+                }
+            </script>
+        </section>
+
+        <section class="banner-container">
+            <div class="banner">
+                <img src="../media/f1inschoolsbanner.png" alt="Scuderia Nitroneedles na abertura de temporada da F1 in Schools">
+                <div class="overlay"></div> <!-- Quadrado laranja translúcido -->
+            </div>
+        </section>
+    </header>
+
+    <main class="main-f1inschools">
+        <section class="f1inschools">
+            <div class="logo-f1inschools">
+                <img src="../media/f1inschoolslogo.png" alt="logo f1 in schools">
+            </div>
+            <div class="f1inschools-text">
+                <p class="description">O F1 in Schools é uma competição educacional global que desafia estudantes de 9 a 19 anos a projetar, construir e competir com réplicas em miniatura de carros de Fórmula 1, utilizando ferramentas de design e manufatura de última geração. Criado para estimular o interesse em engenharia, ciência, tecnologia e matemática (STEM), o programa combina aspectos técnicos com habilidades de gestão, marketing e trabalho em equipe.</p>
+            </div>
+        </section>
+    </main>
+
+    <main class="container-main">
+        <article class="main-new">
+            <p class="meet-text">Os participantes formam equipes que assumem papéis como engenheiros, designers e gerentes de projeto. Usando software CAD (Computer-Aided Design), os estudantes projetam seus carros e os fabricam em máquinas CNC, garantindo alta precisão. Os veículos são movidos por cartuchos de gás CO₂ e competem em uma pista de 20 metros.</p>
+        </article>
+
+        <aside class="aside-img">
+            <img src="../media/racenacional24.png" alt="Scuderia Nitroneedles na abertura de temporada da F1 in Schools 2024">
+        </aside>
+    </main>
+
+    <main class="container-main">
+             <aside class="aside-img">
+                <img src="../media/ministand.jpg" alt="Scuderia Nitroneedles na abertura de temporada da F1 in Schools 2024">
+            </aside>
+
+            <article class="main-new">
+            <p class="meet-text">Além da corrida em si, as equipes são avaliadas em diversas categorias, como portfólio de engenharia, marketing, patrocínio e apresentação do projeto. Os vencedores regionais e nacionais têm a chance de competir no campeonato mundial, que muitas vezes é realizado em conjunto com eventos da Fórmula 1.</p>
+
+            <p class="meet-text"> O F1 in Schools não apenas promove habilidades técnicas, mas também desenvolve competências de liderança, criatividade e empreendedorismo, preparando os jovens para carreiras futuras em engenharia, negócios e áreas correlacionadas.</p>
+        </article>
+    </main>
+
+    <footer class="footer-site">
+
+        <section class="sponsors-footer">
+        <img src="../media/sponsors.png" alt="">
+        </section>
+
+        <div class="division-bar">
+            <div class="division"></div>
+        </div>
+
+        <section class="footer-info">
+            <div class="footer-logo">
+                <img src="../media/logo branca nitro.png" alt="Logo Nitro Needles">
+            </div>
+    
+            <div class="footer-details">
+                <div class="footer-social">
+                    <h2 class="subtitle">REDES SOCIAIS</h2>
+                    <div class="linha"></div>
+                    <div class="icons">
+                        <a href="https://www.instagram.com/nitroneedles/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@nitroneedles"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="https://br.linkedin.com/company/scuderia-nitroneedles"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.youtube.com/@nitroneedles"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+    
+                <div class="footer-school">
+                    <h2 class="subtitle">ESCOLA</h2>
+                    <div class="linha"></div>
+                    <p>SESI Valinhos - Rod. Flávio de Carvalho, 2787<br> Jardim São Paulo, Valinhos - SP, 13273-450</p>
+                </div>
+    
+                <div class="footer-contact">
+                    <h2 class="subtitle">CONTATE-NOS</h2>
+                    <div class="linha"></div>
+                    <p>scuderianitroneedles@gmail.com</p>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+
+</body>
+</html>
