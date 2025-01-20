@@ -11,6 +11,8 @@
 body {
     font-family: 'Anton', sans-serif;
     background-color: #f5f5f5;
+    justify-content: center;
+    align-items: center;
 }
 
 .anton-regular {
@@ -43,7 +45,6 @@ body {
     gap: 160px;
     padding: 20px;
     margin-top: 20px;
-
 }
 
 .mission, .vision, .values {
@@ -59,6 +60,7 @@ body {
     border-radius: 20px;
     color: white;
     font-size: 1.4rem;
+    box-shadow: 5px 10px 8px #888888
 }
 
 .objectives-header {
@@ -79,4 +81,179 @@ body {
     font-size: 1.5rem;
     color: white;
     margin: 0;
+}
+
+.team-members{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-members-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.team-members-title{
+    font-family: 'Anton', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #111a50;
+}
+
+.team-member-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: #111a50;
+}
+
+.team-members-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 5px 12%;
+    margin-top: 20px;
+}
+
+.team-member{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #111a50;
+    border-radius: 20px;
+    color: white;
+    font-size: 1.4rem;
+    box-shadow: 5px 10px 8px #888888
+}
+
+.team-member img{
+    width: 195px;
+    height: 200px;
+}
+
+.team-member h2{
+    font-size: 1.5rem;
+    color: white;
+    margin: 0;
+}
+
+.team-member-habilities{
+    width: 70%;
+    font-size: 1.3rem;
+    color: white;
+    margin: 20px;
+}
+
+.team-member-social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: white;
+}
+
+.social-project {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-project-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 10%;
+}
+
+.team-members-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.social-project-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    color: #111a50;
+    text-align: justify;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+}
+
+.container > div {
+    background-color: #e0e0e0;
+    aspect-ratio: 4 / 3; /* Mantém a proporção 4:3 */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.nitrodelas-main {
+    display: flex;
+    justify-content: space-between; /* Espaçamento entre o texto e a imagem */
+    align-items: center;
+    padding: 50px 15%; /* Espaçamento interno */
+    gap: 10rem; /* Espaço entre os elementos */
+}
+
+/* Estilo do texto */
+.nitrodelas-new {
+    flex: 1; /* O texto ocupa o espaço restante */
+    /* margin-bottom: 125px;*/
+} 
+
+.nitrodelas-title {
+    font-family: 'Anton', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #111a50; /* Cor semelhante ao exemplo */
+}
+
+.nitrodelas-title span {
+    color: #ff66c4;
+}
+
+.nitrodelas-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.6;
+    color: #111a50;
+}
+
+/* Estilo para a imagem */
+.aside-video {
+    flex: 1; /* Imagem ocupa o espaço restante */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%; /* Controla o tamanho da imagem */
+    height: auto;
 }
