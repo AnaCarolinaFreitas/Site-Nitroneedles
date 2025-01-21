@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url(header.css);
+@import url(footer.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Anton', sans-serif;
+    background-color: #f5f5f5;
+    justify-content: center;
+    align-items: center;
+}
+
+.anton-regular {
+    font-family: "Anton", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .montserrat {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+  .nitronews {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.nitronews-logo img {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.news-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+    padding: 50px 10%;
+}
+
+.news-container > news-card {
+    aspect-ratio: 4 / 3; /* Mantém a proporção 4:3 */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.news-card {
+    background-color: #f68e1f;
+    width: 100%;
+    height: 100%;
+}
+
+.news-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.news-card a {
+    text-decoration: none;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: justify;
+    padding: 10px;
+}
+
+.news-text {
+    align-items: flex-end;
+    padding: 10px;
+    color: #fff;
+    font-size: 1rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+data {
+    font-size: 0.8rem;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
