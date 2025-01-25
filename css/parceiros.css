@@ -27,3 +27,81 @@ body {
     font-optical-sizing: auto;
     font-style: normal;
   }
+
+  .parceiros-main {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.parceiros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 10%;
+}
+
+  .parceiros-title{
+    font-family: 'Anton', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #111a50;
+}
+
+.parceiros-title span {
+    color: #ff7b00;
+}
+
+.parceiros-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    color: #111a50;
+    text-align: justify;
+}
+
+.container-parceiro {
+    display: flex;
+    justify-content: space-between; /* Espaçamento entre o texto e a imagem */
+    align-items: center;
+    padding: 50px 10%; /* Espaçamento interno */
+    gap: 10rem; /* Espaço entre os elementos */
+    height: 400px;
+}
+
+/* Estilo do texto */
+.parceiro-new {
+    flex: 1; /* O texto ocupa o espaço restante */
+} 
+
+.parceiro-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.6;
+    color: #111a50; 
+}
+
+.parceiro-text1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.6;
+    color: #111a50; 
+    margin-top: 15px;
+}
+
+/* Estilo para a imagem */
+.aside-img {
+    flex: 1; /* Imagem ocupa o espaço restante */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.aside-img img {
+    width: 300px; /* Controla o tamanho da imagem */
+    height: auto; /* Mantém a proporção */
+}
