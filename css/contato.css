@@ -27,3 +27,42 @@ body {
     font-optical-sizing: auto;
     font-style: normal;
   }
+
+  .contato{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 5px 12%;
+    margin-top: 20px;
+  }
+
+  .contato-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: #111a50;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .contato-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 300px;
+  }
+
+  .contato-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: white;
+    gap: 5px;
+  }
