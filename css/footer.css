@@ -15,7 +15,7 @@ body{
 
 .footer-site{
     background-color: #111a50;
-    height: 92vh;
+    height: 15%;
 }
 
 .sponsors-footer{
@@ -47,8 +47,7 @@ body{
     justify-content: space-between;
     align-items: flex-start;
     gap: 30px;
-    margin-bottom: 3%;
-    padding: 2px 8%;
+    padding: 10px 8%;
 }
 
 .footer-logo img {
