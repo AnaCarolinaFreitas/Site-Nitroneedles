@@ -325,3 +325,63 @@ body {
         width: 100%;
     }
 }
+
+@media (max-width: 425px) {
+    .mission, .vision, .values {
+        width: 100%;
+        height: 25rem;
+        padding: 50px 50px;
+    }
+
+    .team-members-container {
+        margin-bottom: 0;
+    }
+
+    .team-member {
+        width: 100%;
+        height: auto;
+    }
+
+    .team-member h2 {
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+    .team-member-habilities {
+        display: none;
+    }
+
+    .social-project-box {
+        padding: 50px 5%;
+    }
+
+    .social-project-text {
+        font-size: 1rem;
+    }
+
+    .container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .nitrodelas-main {
+        flex-direction: column;
+        
+    }
+
+    .nitrodelas-title, .nitrodelas-title span {
+        display: flex;
+        font-size: 1.8rem;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .nitrodelas-text {
+        font-size: 1rem;
+        text-align: justify;
+        width: 100%;
+    }
+
+    .aside-video {
+        width: 100%;
+    }
+}
