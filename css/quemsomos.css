@@ -54,7 +54,7 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 7%;
-    padding: 50px;
+    padding: 30px 50px;
     margin-top: 20px;
     background-color: #f68e1f;
     border-radius: 20px;
@@ -120,12 +120,14 @@ body {
     gap: 20px;
     padding: 5px 10%;
     margin-top: 20px;
+    width: 100%;
 }
 
 .team-member{
     display: flex;
     flex-direction: column;
-    height: 600px;
+    height: 35rem;
+    width: 33% ;
     align-items: center;
     gap: 10px;
     padding: 20px;
@@ -153,13 +155,15 @@ body {
     font-size: 1.3rem;
     color: white;
     margin: 20px;
+    text-align: justify;
 }
 
 .team-member-social{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: center;;
+    position: relative;
     gap: 20px;
     color: white;
 }
@@ -256,4 +260,68 @@ body {
     align-items: center;
     width: 90%; /* Controla o tamanho da imagem */
     height: auto;
+}
+
+@media (max-width: 768px) {
+    .objectives-box {
+        flex-direction: column;
+    }
+
+    .mission, .vision, .values {
+        width: 65%;
+        height: 17rem;
+        padding: 50px 50px;
+    }
+
+    .objectives-header {
+        margin-bottom: 15px;
+    }
+
+    .team-member-text {
+        font-size: 1.2rem;
+    }
+
+    .team-members-container {
+        flex-direction: column;
+    }
+
+    .team-member {
+        width: 80%;
+    }
+
+    .social-project-box {
+        padding: 50px 5%;
+    }
+
+    .social-project-text {
+        font-size: 1rem;
+    }
+
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .nitrodelas-main {
+        flex-direction: column;
+        gap: 2rem; 
+        
+    }
+
+    .nitrodelas-title {
+        display: flex;
+        font-size: 2rem;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .nitrodelas-text {
+        font-size: 1rem;
+        text-align: justify;
+        width: 43rem;
+    }
+
+    .aside-video {
+        width: 100%;
+    }
 }
