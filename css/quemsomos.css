@@ -262,126 +262,58 @@ body {
     height: auto;
 }
 
+
 @media (max-width: 768px) {
-    .objectives-box {
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    .team-objectives, .objectives-box, .team-members-container {
         flex-direction: column;
+        gap: 10px;
     }
 
     .mission, .vision, .values {
-        width: 65%;
-        height: 17rem;
-        padding: 50px 50px;
-    }
-
-    .objectives-header {
-        margin-bottom: 15px;
-    }
-
-    .team-member-text {
-        font-size: 1.2rem;
-    }
-
-    .team-members-container {
-        flex-direction: column;
+        width: 100%;
     }
 
     .team-member {
-        width: 80%;
-    }
-
-    .social-project-box {
-        padding: 50px 5%;
-    }
-
-    .social-project-text {
-        font-size: 1rem;
-    }
-
-    .container {
-        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
     }
 
     .nitrodelas-main {
         flex-direction: column;
-        gap: 2rem; 
-        
-    }
-
-    .nitrodelas-title {
-        display: flex;
-        font-size: 2rem;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-    }
-
-    .nitrodelas-text {
-        font-size: 1rem;
-        text-align: justify;
-        width: 43rem;
-    }
-
-    .aside-video {
-        width: 100%;
+        gap: 2rem;
     }
 }
 
-@media (max-width: 425px) {
-    .mission, .vision, .values {
-        width: 100%;
-        height: 25rem;
-        padding: 50px 50px;
-    }
-
-    .team-members-container {
-        margin-bottom: 0;
-    }
+@media (max-width: 576px) {
 
     .team-member {
+        height: auto;
+    }
+    .team-member img {
         width: 100%;
         height: auto;
     }
 
     .team-member h2 {
         font-size: 1.2rem;
-        font-weight: 700;
     }
+
     .team-member-habilities {
-        display: none;
+       display: none;
     }
 
-    .social-project-box {
-        padding: 50px 5%;
-    }
-
-    .social-project-text {
-        font-size: 1rem;
-    }
-
-    .container {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .nitrodelas-main {
-        flex-direction: column;
-        
-    }
-
-    .nitrodelas-title, .nitrodelas-title span {
-        display: flex;
-        font-size: 1.8rem;
-        align-items: center;
-        justify-content: center;
+    .team-member-social {
         gap: 10px;
+    }
+
+    .nitrodelas-title {
+        font-size: 2rem;
     }
 
     .nitrodelas-text {
         font-size: 1rem;
-        text-align: justify;
-        width: 100%;
-    }
-
-    .aside-video {
-        width: 100%;
     }
 }
